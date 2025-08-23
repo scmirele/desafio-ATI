@@ -45,8 +45,43 @@ button {
 .hero-section {
   width: 100%;
   height: 741px;
+  position: relative;
   background: url(./assets/bg-hero.jpg) no-repeat top center/cover;
 }
 
+.vector-top {
+  width: 391px;
+  position: absolute;
+  right: 0;
+}
+
+.vector-bottom {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+}
+
+.hero-section-content {
+  border: solid 1px red;
+  max-width: 969px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
 .logo-hero-section {
+  width: 731px;
+
+  /* height: 298px;display: flex;
+  align-items: center;
+  justify-content: center; */
+}
+
+.content-text {
+  font-size: 30px;
+  color: #f5f5f5;
+  font-weight: 400;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
