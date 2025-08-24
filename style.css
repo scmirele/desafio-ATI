@@ -138,12 +138,11 @@ button {
 }
 
 .info-section {
-  border: solid 1px red;
-  height: 100%;
+  background-color: #fbfbfb;
+  height: 824px;
 }
 
 .info-section-content {
-  border: solid 1px red;
   width: 1139px;
   display: flex;
   flex-direction: column;
@@ -191,8 +190,13 @@ button {
   text-align: center;
 }
 
-.card-blue-info {
-  background-color: #1d4080;
+.cards-info-content {
+  /* height: 100%; */
+  margin-top: 76px;
+  display: flex;
+  gap: 46px;
+}
+.card-info {
   border-radius: 20px;
   box-shadow: 4px 4px 15px 0px #00000026;
   width: 349px;
@@ -200,29 +204,60 @@ button {
   padding: 29px;
 }
 
-.card-blue-info h1 {
+.blue-color {
+  background-color: #1d4080;
+}
+.red-color {
+  background-color: #b62424;
+}
+
+.yellow-color {
+  background-color: #f28e00;
+}
+
+.card-info h1 {
   font-family: "Public Sans";
   font-weight: 600;
-  font-style: SemiBold;
   font-size: 20px;
-  line-height: 29.9px;
   color: #f5f5f5;
 }
 
-.card-blue-info p {
+.title-card-info {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.card-info p {
   font-weight: 300;
   font-size: 16px;
   color: #f5f5f5;
+  margin-top: 22px;
+  height: 162px;
 }
 
 .button-card-info {
-  background-color: #11538f;
+  height: 100%;
+}
+
+.button-card-info button {
   width: 291px;
-  height: 48px;
   border-radius: 10px;
-  font-family: Poppins;
   font-weight: 500;
   font-size: 14px;
   line-height: 24px;
   text-align: center;
+}
+
+.button-blue {
+  background-color: #11538f;
+}
+
+.button-yellow {
+  background-color: #ff9f16;
+}
+
+.element-info-section-bottom {
+  position: absolute;
+  left: 0;
 }
