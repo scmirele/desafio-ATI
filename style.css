@@ -196,6 +196,7 @@ button {
   display: flex;
   gap: 46px;
 }
+
 .card-info {
   border-radius: 20px;
   box-shadow: 4px 4px 15px 0px #00000026;
@@ -260,4 +261,58 @@ button {
 .element-info-section-bottom {
   position: absolute;
   left: 0;
+}
+
+.maps-section {
+  background: url(./assets/maps-bg.svg) no-repeat right top;
+  background-color: #f6f6f6;
+}
+.maps-button-top {
+  display: flex;
+  justify-content: center;
+  background-color: rgba(29, 64, 128, 0.2);
+  width: 85px;
+  height: 100%;
+  border-radius: 5px;
+  padding: 12px 5px;
+  gap: 9px;
+}
+
+.title-maps-content {
+  text-align: center;
+  gap: 10px;
+  display: grid;
+  margin-top: 23px;
+}
+
+.title-maps-section {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 34.88px;
+  color: #424242;
+}
+
+.title-maps-section span {
+  color: #1d4080;
+}
+
+.subtitle-maps-section {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #424242;
+}
+
+.maps-container {
+  margin-top: 31px;
+  height: 100%;
+  border: 8px solid #233878;
+  border-radius: 1.5rem;
+  overflow: hidden;
+}
+
+.maps-container iframe {
+  width: 1140px;
+  height: 453px;
+  border: none;
 }
