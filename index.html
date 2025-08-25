@@ -17,22 +17,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   </head>
   <body>
+
     <header class="header">
       <div class="content-header">
         <div class="logo">
           <img src="./assets/logo-op.svg" alt="Logo da OP na cor branca" />
         </div>
         <nav class="navigation">
-          <a class="">Início</a>
-          <a class="">Sobre</a>
-          <a class="">Mapa</a>
-          <a class="">Revista</a>
-          <a class="">Proposta</a>
+          <a href="#hero-section">Início</a>
+          <a href="#about-us-section">Sobre</a>
+          <a href="#maps-section">Mapa</a>
+          <a href="#ppas-section">Proposta</a>
+          <a href="https://op.participa.ma.gov.br/data/Revista%20OP%2010%20anos_final_junho2025.pdf" target="_blank">Revista</a>
         </nav>
         <button class="button-CTA">Fale Conosco</button>
       </div>
     </header>
-    <section class="hero-section">
+
+    <section class="hero-section" id="hero-section">
       <img
         src="./assets/hero-vector-top.svg"
         alt="Elementos brancos com linhas e bolas"
@@ -53,7 +55,7 @@
         </div>
       </div>
     </section>
-    <section class="about-us-section">
+    <section class="about-us-section" id="about-us-section">
       <div class="content-left-about-us">
         <img src="./assets/logo-op-azul.svg" alt="Logo OP na cor azul">
       </div>
@@ -63,7 +65,7 @@
       </div>
       <img src="./assets/about-us-vector-bottom.svg" alt="Logo OP 10 anos nas cores azul, vermelho, amarelo e branco" class="vector-bottom-about-us">
     </section>
-    <section class="info-section">
+    <section class="info-section" id="info-section">
       <img src="./assets/saibamais-vector-top.svg" alt="Elementos coloridos azul, vermelho, amarelo com linhas e bolas" class="element-info-section">
       <div class="info-section-content">
         <span class="button-top">
@@ -106,8 +108,7 @@
       </div>
       <img src="./assets/saibamais-vector-bottom.svg" alt="Elementos coloridos azul, vermelho, amarelo com linhas e bolas" class="element-info-section-bottom">
     </section>
-    <section class="maps-section">
-      <!-- <img src="./assets/maps-bg.svg" alt="mapa do maranhão" class="maps-section-bg"> -->
+    <section class="maps-section" id="maps-section">
       <div class="info-section-content">
         <span class="maps-button-top">
           <img src="./assets/icon-maps.svg" alt="Ícone de pasta azul">
@@ -121,6 +122,81 @@
         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8131710.406213665!2d-50.57585788780054!3d-5.6315207390773665!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7edd77a9bcc1ce5%3A0x6276aba3d96c2934!2zTWFyYW5ow6Nv!5e0!3m2!1spt-BR!2sbr!4v1756081868021!5m2!1spt-BR!2sbr" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
         </iframe>
       </div>
+    </section>
+    <section class="ppas-section">
+      <img src="./assets/10_anos_logo-top.svg" alt="Logo OP" class="img-top" />
+      <div class="ppas-section-content">
+        <div class="ppas-content-texts">
+          <div class="title-ppas">
+            <h1 class="title-ppas-text">
+              Acesse aqui os planos plurianuais participativos (PPAs)
+            </h1>
+          </div>
+          <div class="text-ppas-content">
+            <p>
+              O Plano Plurianual (PPA) é o instrumento que define as metas e
+              prioridades do Governo para um período de quatro anos, o mesmo
+              tempo de um mandato. Ele é elaborado no início de cada gestão e
+              tem validade até o primeiro ano do mandato seguinte, sendo
+              revisado anualmente. Por lei, deve ser encaminhado à Assembleia
+              Legislativa até o dia 31 de agosto.
+            </p>
+            <p>
+              Nos PPAs Participativos, a população tem voz ativa na definição
+              dessas prioridades. Se você deseja conhecer as propostas
+              apresentadas e priorizadas em cada ciclo, é só clicar nos arquivos
+              disponíveis na lista a seguir. Eles reúnem as contribuições da
+              sociedade maranhense para os PPAs dos períodos de 2016-2019,
+              2020-2023 e 2024-2027.
+            </p>
+          </div>
+        </div>
+
+        <div class="ppas-content-cards">
+          <div class="ppas-card">
+            <div class="ppas-texts-content">
+              <h3 class="ppas-title">PPA 2016-2019</h3>
+              <p>Primeiro ciclo com participação popular estruturada</p>
+            </div>
+
+            <div class="ppas-content-cards-pdf">
+              <div class="ppas-card-pdf">
+                <a href="#" class="ppas-card-link">
+                  <div class="ppas-card-pdf-title">
+                    <img src="./assets/icon-doc.svg" alt="file" />
+                    <h4 class="ppas-card-pdf-text">
+                      Arquivo com propostas.pdf
+                    </h4>
+                  </div>
+                  <div class="ppas-card-pdf-date">
+                    <img src="./assets/icon-calendar.svg" alt="calendar" />
+                    <h4 class="ppas-card-pdf-text">00/00/0000</h4>
+                  </div>
+                </a>
+              </div>
+              <div class="ppas-card-pdf">
+                <a href="#" class="ppas-card-link">
+                  <div class="ppas-card-pdf-title">
+                    <img src="./assets/icon-doc.svg" alt="file" />
+                    <h4 class="ppas-card-pdf-text">
+                      Arquivo com propostas.pdf
+                    </h4>
+                  </div>
+                  <div class="ppas-card-pdf-date">
+                    <img src="./assets/icon-calendar.svg" alt="calendar" />
+                    <h4 class="ppas-card-pdf-text">00/00/0000</h4>
+                  </div>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="./assets/10_anos_logo-bottom.svg"
+        alt="Logo OP"
+        class="img-bottom"
+      />
     </section>
   </body>
 </html>
